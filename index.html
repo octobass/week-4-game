@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="UTF-8">
+	<title>Crystals Collector</title>
+ 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="jumbotron">
+<div id="crystals"></div>
+  <h1>Crystals Collector!</h1>
+  <div id="instructions">
+<h2> Instructions: </h2>
+    <p> You will be given a random number at the start of the game. </p>
+    <p> There are four crystals below. By clicking a crystal you will add a specific amount of points to your total score. </p>
+    <p> You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. </p>
+    <p> The value of each crystal is hidden from you until you click on it. </p>
+    <p> Each time when the game starts, the game will change the values of each crystal. </p>
+  </div>
+</div>
+
+
+<span class="label label-default">Wins:</span>
+<div id="wins"> Wins:</div>
+
+<span class="label label-default">Losses:</span>
+<div id="losses"> Losses: </div>
+
+<span class="label label-default">Random Number</span>
+<div id="randomNumber"> Random Number </div>
+
+
+<div class = "container" >
+<div class="row">
+  <div class="col-md-12">
+   
+      <img id="crystalOne" src="http://cdn.playbuzz.com/cdn/7a5d7935-6177-4be8-8b72-2a95ad2bcdfe/3b295cc9-7b5e-412f-8b1f-8547edd8e66b.jpg" style="width:100px; height:100px" alt="CrystalsOne">
+
+      <img id="crystalTwo" src="https://scienceweek.co.za/wp-content/uploads/2015/09/11192a17061dc3b94b4a1a786fc4c1db.jpeg" style="width:100px; height:100px" alt="CrystalsTwo">
+
+      <img id="crystalThree" src="http://vignette2.wikia.nocookie.net/wowwiki/images/0/0c/Crushed_Basilisk_Crystals.jpg/revision/latest?cb=20091117234446" style="width:100px; height:100px" alt="CrystalsThree">
+
+      <img id="crystalFour" src="https://userscontent2.emaze.com/images/100f9833-7b15-414c-9a77-370d37273bf5/52e7a3820903a490ab8e3af69c7b4390.jpg" style="width:100px; height:100px" alt="CrystalsFour">
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-success">
+  <div class="panel-heading">
+    <h3 class="panel-title">Your Score:</h3>
+  </div>
+  <div class="panel-body">
+    <span id="finalScore"></span>
+  </div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type= "text/javascript" src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>
